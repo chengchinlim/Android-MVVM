@@ -9,13 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".views.TwoWayBindingActivity">
+
+        </activity>
+        <activity android:name=".views.Challenge3Activity"></activity>
+        <activity android:name=".views.Challenge4Activity">
+
+        </activity>
+        <activity android:name=".views.Challenge5Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".views.FirstActivity" />
+        <activity android:name=".views.Challenge2Activity" />
+        <activity android:name=".views.StudentActivity" />
+        <activity android:name=".views.FirstViewModelActivity"></activity>
+        <activity android:name=".views.LiveDataActivity"></activity>
     </application>
 
 </manifest>
